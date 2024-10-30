@@ -4,8 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "bulid": "vite-bulid --base=/my-web-site/",
+    "prewiev": "vite prewiev"
+
   },
   "author": "Anton Skoromnyi",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "modules": "^0.4.0",
+    "node": "^22.2.0",
+    "simplelightbox": "^2.14.3"
+  }
 }
